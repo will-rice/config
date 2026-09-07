@@ -1,8 +1,8 @@
-"""Main module for the template package."""
+"""Main module for the config package."""
 
 
 def main() -> None:
-    """Entry point for the template."""
+    """Entry point for config."""
     print("Hello, World!")
 
 

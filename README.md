@@ -1,6 +1,6 @@
-# Python Template
+# config
 
-A general Python project template with modern tooling.
+A Python project for `config` with modern tooling.
 
 ## Features
 
@@ -17,33 +17,19 @@ A general Python project template with modern tooling.
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-### 2. Use this template for a new project
-
-When creating a new project from this template:
-
-1. Clone or fork this repository
-2. Rename the `src/template` directory to your project name:
-   ```bash
-   mv src/template src/your_project_name
-   ```
-3. Update `pyproject.toml`:
-   - Change `name = "template"` to your project name
-   - Update `module-name = ["template"]` to your project name
-4. Update import statements in Python files to use your new project name
-
-### 3. Install dependencies
+### 2. Install dependencies
 
 ```bash
 uv sync
 ```
 
-### 4. Set up environment variables
+### 3. Set up environment variables
 
 ```bash
 cp .env.example .env
 ```
 
-### 5. Install pre-commit hooks
+### 4. Install pre-commit hooks
 
 ```bash
 uv run pre-commit install
@@ -81,8 +67,8 @@ uv run pre-commit run --all-files
 ## Project Structure
 
 ```
-python-template/
-├── src/template/      # Main package code
+config/
+├── src/config/        # Main package code
 ├── tests/             # Test files
 ├── pyproject.toml     # Project configuration
 ├── .pre-commit-config.yaml  # Pre-commit hooks
@@ -92,4 +78,3 @@ python-template/
 ## License
 
 See [LICENSE](LICENSE) file for details.
-
